@@ -1,0 +1,120 @@
+.login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:85vh;
+    padding:20px 25px;
+}
+.login-left{
+    flex:1;
+}
+.login-left img{
+    width:85%;
+    transition: all .5s ease-in;
+}
+.login-right{
+    padding:15px 20px;
+    margin:20px 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex:0.7;
+}
+.login-right h1{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+
+}
+.form-group input{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    width:100%;
+    font-size: 20px;
+    padding:8px 10px;
+}
+.form-group{
+    width:100%;
+    padding:10px 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 999px;
+   background-color: #eee;
+   margin: 20px;
+}
+ .login-right form{
+     width:100%;
+ }
+ .form-group .email , .lock{
+     /* color:green; */
+     font-weight: 200;
+ }
+ .form-grou{
+     width:100%;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px auto;
+
+ }
+ .form-grou input[type="submit"]{
+     padding:10px 15px;
+     width:70%;
+     background-color: rgba(0, 0, 200 ,0.5)    ;
+     border-radius: 10px;
+     border:none;
+     outline:none;
+     font-size: 21px;
+     margin:auto;
+     color:#fff;
+     transition: all .5s ease-in-out;
+ }
+ .form-grou input[type="submit"]:hover{
+    background-color: rgba(0,0,230 ,0.5);
+    width:90%;
+ }
+ .sign{
+     padding:10px 15px;
+     margin:15px auto;
+ }
+ .sign h2{
+     padding: 10px 12px;
+     margin:10px auto;
+     font-weight: 350;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .sign button{
+     padding:12px 20px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     width:100%;
+     border-radius: 999px;
+     outline:none;
+     /* border:none; */
+     font-size: 23px;
+     transition: all .5s ease-out;
+ }
+ .sign-in button{
+      background-color: rgba(0, 0, 250 ,0.5);
+      color:#fff;
+      border:none;
+ }
+ .sign-up button{
+    border:1px solid rgba(0, 0, 250 ,0.5);
+    /* color:#fff; */
+}
+.sign-in button:hover{
+    background-color: #fff;
+    color:black;
+    
+    border:1px solid  rgba(0, 0, 250 ,0.5);
+}
+.sign-up button:hover{
+    background-color: rgba(0, 0, 250 ,0.5);
+    color:#fff;
+    border:none;
+}

@@ -1,0 +1,44 @@
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+form{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin:20px auto;
+ background:rgba(0,0,100,0.9);
+ overflow: hidden;
+}
+input{
+    border:none;
+    outline:none;
+    background-color:transparent;
+    padding:10px;
+    width:90%;
+    font-size: 16px;
+    color:white;
+
+}
+.form-group{
+    width:60%;
+    margin:15px auto;
+    padding: 0 10px;
+    text-align: center;
+    height:40px;
+    border-bottom: 2.5px solid white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="submit"]{
+    display:none;
+}
+.MuiSvgIcon-root{
+    color:white;
+    cursor:pointer;
+}

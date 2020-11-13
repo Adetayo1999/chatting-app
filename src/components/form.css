@@ -1,0 +1,51 @@
+.form{
+    /* width:100%; */
+    padding:15px;
+    font-weight: 100;
+    color:white;
+    background-color: rgba(20,30,45,2.5);
+    font-family: cursive;
+}
+input{
+    border:none;
+    outline:none;
+    background: transparent;
+}
+input[type="submit"]{
+    display:none;
+}
+input[type="text"]{
+    height:50px;
+    font-size: 22px;
+    padding:5px;
+    flex:1;
+    display:flex;
+}
+.icon{
+    color:green;
+     font-size: 100px; 
+     height:100px;
+     width:100px;
+     padding:10px;
+}
+.input-text{
+    background-color: white;
+    width:60%;
+    margin:auto;
+    height:50px;
+    border-radius: 999px;
+    padding:10px;
+    cursor:pointer;
+    display:flex;
+
+}
+.welcome-msg{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin:10px auto;
+    display:none;
+    font-size: 25px;
+}
